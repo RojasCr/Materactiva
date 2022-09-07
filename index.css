@@ -1,0 +1,47 @@
+*{
+  margin: 0 0;
+	margin-left: 2px;
+}
+
+h1{
+	text-align: center;
+	margin: 1.5rem 0 1.5rem 0;
+}
+
+/* h2{
+
+} */
+
+ol{
+	/*display: flex;
+	flex-direction: column;
+	*/width: 50rem;
+	list-style-type:decimal;
+}
+
+li{
+	
+	margin-bottom: 0.5rem;
+	/*max-width: 25rem;*/
+	justify-content: space-between;
+}
+
+.contenedorPoli{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+
+.poli{
+	display: inline;
+	width: 100%;
+}
+
+.lateral{	
+	display: inline;
+	width: 100%;
+	text-align: start;
+}
+
+.lateral input{
+	width: 20%;
+}
