@@ -18,9 +18,11 @@ const x = () => {
 var xCero = 0;
 const generar2 = () => {
     xCero = x();
-    let lista = `<div class="contenedorPoli">
-                    <div class="poli">R(x) = ${r.crear(1)} para x=${xCero}</div>
-                    <div class="lateral">R(${xCero}) = <input id="R(x)"> <span id="eval"></span></div>
+    let lista = `<div id="evaluar">
+                    <div class="contenedorPoli">
+                        <div class="poli">R(x) = ${r.crear(1)} </div>
+                        <div class="lateral">para x=${xCero} R(${xCero}) = <input id="R(x)"> <span id="eval"></span></div>
+                    </div>
                 </div>`;
     document.getElementById("evaluar").innerHTML = lista;
 }
