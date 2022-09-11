@@ -19,7 +19,7 @@ class Polinomio{
         let expresion = ``;
         for(let i=0;i<terms;i++){
             this.coef[i]=coeficiente(100);
-            this.exp[i]=exponente(0);
+            this.exp[i]=exponente(10);
             expresion += `${this.coef[i] > 0 ? "+" + this.coef[i] : this.coef[i]}x<sup>${this.exp[i]}</sup>`;
         }
         this.termInd = coeficiente(100);
