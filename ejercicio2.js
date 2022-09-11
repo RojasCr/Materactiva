@@ -15,8 +15,9 @@ const x = () => {
 }
 
 
-var xCero = x();
+var xCero = 0;
 const generar2 = () => {
+    xCero = x();
     let lista = `<div class="contenedorPoli">
                     <div class="poli">R(x) = ${r.crear(1)} para x=${xCero}</div>
                     <div class="lateral">R(${xCero}) = <input id="R(x)"> <span id="eval"></span></div>
