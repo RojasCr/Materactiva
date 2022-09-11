@@ -15,7 +15,8 @@ h1{
 ol{
 	/*display: flex;
 	flex-direction: column;
-	*/width: 50rem;
+	*/max-width: 50rem;
+	min-width: 25rem;
 	list-style-type:decimal;
 }
 
@@ -27,6 +28,8 @@ li{
 }
 
 .contenedorPoli{
+	max-width: 30rem;
+	min-width: 25rem;
 	display: grid;
 	grid-template-columns: 2fr 5fr;
 	gap: 10px;
@@ -47,3 +50,9 @@ li{
 	width: 6%;
 }
 
+/*ejer 2*/
+#evaluar{
+	min-width: 25rem;
+	max-width: 30rem;
+	display: block;
+}
