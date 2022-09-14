@@ -9,7 +9,7 @@
 
 
 .lateral2 input{
-	width: 6%;
+	width: 7%;
 }
 
 /*ejer 2*/
@@ -17,6 +17,8 @@
 	min-width: 25rem;
 	max-width: 30rem;
 	display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 @media (orientation: portrait){
