@@ -1,0 +1,63 @@
+*{
+  margin: 0 0;
+	margin-left: 2px;
+}
+
+html, body{
+	width: 100%;
+	
+}
+
+h1{
+	text-align: center;
+	margin: 1.5rem 0 1.5rem 0;
+}
+
+/* h2{
+
+} */
+
+ol{
+	/*display: flex;
+	flex-direction: column;
+	*/max-width: 50rem;
+	min-width: 25rem;
+	list-style-type:decimal;
+}
+
+li{
+	
+	margin-bottom: 0.5rem;
+	/*max-width: 25rem;*/
+	justify-content: space-between;
+}
+
+.contenedorPoli{
+	max-width: 30rem;
+	min-width: 25rem;
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	gap: 10px;
+}
+
+.poli{
+	display: inline;
+	width: 100%;
+}
+
+.lateral{	
+	display: inline;
+	width: 100%;
+	text-align: start;
+}
+
+.lateral input{
+	width: 6%;
+}
+
+/*ejer 2*/
+#evaluar{
+	min-width: 25rem;
+	max-width: 30rem;
+	display: block;
+}

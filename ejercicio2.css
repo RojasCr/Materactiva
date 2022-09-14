@@ -1,0 +1,31 @@
+.contenedorPoli2{
+	max-width: 100%;
+	min-width: 25rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+
+
+.lateral2 input{
+	width: 6%;
+}
+
+/*ejer 2*/
+#evaluar{
+	min-width: 25rem;
+	max-width: 30rem;
+	display: block;
+}
+
+@media (orientation: portrait){
+    html, body{
+        width: 100%;
+    }
+}
+@media (orientation: lanscape){
+    html, body{
+        width: 100%;
+    }
+}
