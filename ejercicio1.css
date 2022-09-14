@@ -37,9 +37,9 @@ li{
 
 .contenedorPoli{
 	max-width: 30rem;
-	min-width: 25rem;
+	/*min-width: 25rem;*/
 	display: grid;
-	grid-template-columns: 2fr 5fr;
+	grid-template-columns: 1fr 1fr;
 	gap: 10px;
 }
 
