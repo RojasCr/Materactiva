@@ -18,12 +18,12 @@ const x = () => {
 var xCero = 0;
 const generar2 = () => {
     xCero = x();
-    let lista = `<div id="evaluar">
+    let lista = `
                     <div class="contenedorPoli2">
                         <div class="poli2">R(x) = ${r.crear(1)} para x=${xCero}</div>
                         <div class="lateral2"> R(${xCero}) = <input id="R(x)"> <span id="eval"></span></div>
                     </div>
-                </div>`;
+                `;
     document.getElementById("evaluar").innerHTML = lista;
 }
 
