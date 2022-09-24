@@ -1,58 +1,54 @@
+
 *{
-  margin: 0 0;
-	margin-left: 2px;
+  	margin: 0 0;
+	padding: 0 0;
 }
 
+html, body{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+
+}
+
+header{
+	max-width: 100%;
+}
 h1{
 	text-align: center;
 	margin: 1.5rem 0 1.5rem 0;
 }
 
-/* h2{
-
-} */
-
-ol{
-	/*display: flex;
-	flex-direction: column;
-	*/max-width: 50rem;
-	min-width: 25rem;
-	list-style-type:decimal;
+article{
+	max-width: 100%;
+	max-height: 100%;
+	padding-left: 1vh;
+}
+h2{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-li{
+@media (orientation: portrait) and (max-width: 400px){
+	html, body{
+		max-width: 100%;
+		max-height: 100%;
+		margin: 0;
 	
-	margin-bottom: 0.5rem;
-	/*max-width: 25rem;*/
-	justify-content: space-between;
-}
+	}
+	
+	header{
+		max-width: 100%;
+	}
+	h1{
+		text-align: center;
+		margin: 1.5rem 0 1.5rem 0;
+	}
+	
+	article{
+		max-width: 100%;
+		max-height: 100%;
+	}
+	
 
-.contenedorPoli{
-	max-width: 30rem;
-	min-width: 25rem;
-	display: grid;
-	grid-template-columns: 2fr 5fr;
-	gap: 10px;
-}
 
-.poli{
-	display: inline;
-	width: 100%;
-}
-
-.lateral{	
-	display: inline;
-	width: 100%;
-	text-align: start;
-}
-
-.lateral input{
-	width: 6%;
-}
-
-/*ejer 2*/
-#evaluar{
-	min-width: 25rem;
-	max-width: 30rem;
-	display: block;
 }
