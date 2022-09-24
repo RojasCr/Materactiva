@@ -40,7 +40,51 @@ li{
 	width: 6%;
 }
 
-@media (orientation: portrait) and (max-width: 400px){
+@media (orientation: portrait) and (max-width: 600px){
+	
+	ol{
+		/*display: flex;
+		flex-direction: column;
+		*/max-width: 100%;
+		/*min-width: 25rem;*/
+		list-style-type:decimal;
+		/*padding: 0.6vh;*/
+	}
+	
+	li{
+		
+		margin-bottom: 0.5vh;
+		/*max-width: 25rem;*/
+		
+	}
+	
+	.contenedorPoli{
+		max-width: 100%;
+		/*min-width: 25rem;*/
+		display: grid;
+		/*grid-template-columns: 0.5fr 0.5fr;*/
+		gap: 2px;
+	}
+	
+	.poli{
+		display: inline;
+		width: 100%;
+	}
+	
+	.lateral{	
+		display: flex;
+		flex-wrap: nowrap;
+		width: 100%;
+		text-align: start;
+		font-size: 80%;
+	}
+	
+	.lateral input{
+		width: 8%;
+		font-size: 80%;
+	}
+}
+@media (orientation: landscape) {
 	
 	ol{
 		/*display: flex;

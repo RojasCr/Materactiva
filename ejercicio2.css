@@ -25,7 +25,7 @@
     padding-left: 4vh;
 }
 
-@media (orientation: portrait) and (max-width: 400px){
+@media (orientation: portrait) and (max-width: 600px){
     
     .contenedorPoli2{
         max-width: 100%;
