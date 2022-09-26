@@ -4,7 +4,7 @@
 ol{
 	/*display: flex;
 	flex-direction: column;
-	*/max-width: 100%;
+	*/max-width: 75vh;
 	/*min-width: 25rem;*/
 	
 	padding-left: 4vh;
@@ -89,10 +89,10 @@ li{
 	ol{
 		/*display: flex;
 		flex-direction: column;
-		*/max-width: 100%;
+		*/max-width: 75vh;
 		/*min-width: 25rem;*/
 		list-style-type:decimal;
-		/*padding: 0.6vh;*/
+		padding-left: 4vh;
 	}
 	
 	li{
@@ -120,7 +120,7 @@ li{
 		flex-wrap: nowrap;
 		width: 100%;
 		text-align: start;
-		font-size: 80%;
+		/*font-size: 80%;*/
 	}
 	
 	.lateral input{
