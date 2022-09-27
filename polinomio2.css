@@ -1,0 +1,68 @@
+
+.contenedorPoli2{
+	max-width: 100%;
+	
+	
+	gap: 10px;
+}
+
+
+.lateral2{
+    display: inline;
+    max-width: 100%;
+}
+.lateral2 input{
+	width: 7%;
+}
+
+/*ejer 2*/
+#evaluar{
+	
+	max-width: 75vh;
+	display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 4vh;
+}
+
+@media (orientation: portrait) and (max-width: 600px){
+    
+    .contenedorPoli2{
+        max-width: 100%;
+        /*min-width: 25rem;*/
+        display: grid;
+       
+        /*grid-template-columns: 1fr 1fr;*/
+        gap: 10px;
+    }
+
+    .poli2{
+        display: inline;
+        max-width: 100%;
+    }
+    
+    .lateral2{
+        display: inline;
+		
+		max-width: 100%;
+		text-align: start;
+		font-size: 80%;
+    }
+    
+    
+    .lateral2 input{
+        width: 9%;
+        font-size: 80%;
+    }
+    
+    /*ejer 2*/
+    #evaluar{
+        /*min-width: 100%;*/
+        max-width: 100%;
+        /*display: block;*/
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+
+
