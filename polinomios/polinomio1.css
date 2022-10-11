@@ -10,7 +10,7 @@ ol{
 	padding-left: 4vh;
 }
 
-li{
+article li{
 	
 	margin-bottom: 0.5vh;
 	/*max-width: 25rem;*/
@@ -51,7 +51,7 @@ li{
 		/*padding: 0.6vh;*/
 	}
 	
-	li{
+	article li{
 		
 		margin-bottom: 0.5vh;
 		/*max-width: 25rem;*/
@@ -95,7 +95,7 @@ li{
 		padding-left: 4vh;
 	}
 	
-	li{
+	article li{
 		
 		margin-bottom: 0.5vh;
 		/*max-width: 25rem;*/

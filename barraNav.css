@@ -53,6 +53,23 @@ a:hover{
     background-color: blueviolet;
 }
 
+#inicio{
+    background-size: 110% 110%;
+    background-position: center;
+    background-image: url(https://concepto.de/wp-content/uploads/2013/08/matematicas-e1551990322160-800x399.jpg);
+}
+
+#polinomios{
+    background-size: 110% 110%;
+    background-position: center;
+    background-image: url(https://totumat.files.wordpress.com/2019/11/1-15-polinomios.png?w=810);
+}
+#ecuaciones{
+    background-size: 110% 110%;
+    background-position: center;
+    background-image: url(https://totumat.files.wordpress.com/2019/11/1-12-ecuaciones-lineales.png?w=810);
+}
+
 @media (orientation: portrait) and (max-width: 600px){
     .barra ul{
         display: flex;

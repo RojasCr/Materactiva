@@ -16,4 +16,8 @@ html, body{
     background-color: aquamarine;
     height: 110%;
     box-shadow:  0 0 10px;
+    background-size: 100% 100%;
+    background-image: url(https://concepto.de/wp-content/uploads/2013/08/matematicas-e1551990322160-800x399.jpg);
 }
+
+
