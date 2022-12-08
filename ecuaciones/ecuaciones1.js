@@ -24,10 +24,11 @@ const generar1 = () => {
 const verificar1 = () => {
     let X = document.getElementById("x");
 
-    if(X.value == (e.res - e.termInd) / e.coef[0]){
+    if(X.value == ((e.res - e.termInd) / e.coef[0]).toFixed(2)){
         document.getElementById("eval").innerHTML = "¡Bien!";
     } else {
         document.getElementById("eval").innerHTML = "¡Volvé a intentar!";
     }
+    
     
 }
